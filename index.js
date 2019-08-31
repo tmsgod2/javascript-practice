@@ -1,6 +1,8 @@
-const sInfo = {
-  name: "smamg",
-  age: 23,
-  gender: "male"
+const calculator = {
+  plus: function(a, b) {
+    return a + b;
+  },
+  minus: function(a, b) {
+    return a - b;
+  }
 };
-alert(sInfo.name);
